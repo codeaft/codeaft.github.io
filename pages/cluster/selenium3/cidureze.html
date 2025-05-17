@@ -1,0 +1,39 @@
+---
+permalink: cluster/selenium3/cidureze
+title: How to launch the browser using Selenium Python
+---
+
+<div class="codecard">Selenium Python to launch the Chrome browser</div>
+<div class="card">{{ site.pyfile }}</div>
+<pre class="editorcard">
+{%- highlight python -%}
+from selenium import webdriver
+
+driver = webdriver.Chrome(executable_path='/home/codeaft/drivers/chromedriver')
+driver.maximize_window()
+driver.get("https://codeaft.com/testapp/")
+driver.close()
+{%- endhighlight -%}</pre>
+
+<div class="codecard">Selenium Python to launch the Firefox browser</div>
+<div class="card">{{ site.pyfile }}</div>
+<pre class="editorcard">
+{%- highlight python -%}
+from selenium import webdriver
+
+driver = webdriver.Firefox(executable_path='/home/codeaft/drivers/geckodriver')
+driver.maximize_window()
+driver.get("https://codeaft.com/testapp/")
+{%- endhighlight -%}</pre>
+
+<div class="codecard">Selenium Python to launch the Edge browser</div>
+<div class="card">{{ site.pyfile }}</div>
+<pre class="editorcard">
+{%- highlight python -%}
+from selenium import webdriver
+
+driver = webdriver.Edge(executable_path='/home/codeaft/drivers/msedgedriver')
+driver.maximize_window()
+driver.get("https://codeaft.com/testapp/")
+driver.close()
+{%- endhighlight -%}</pre>

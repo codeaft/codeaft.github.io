@@ -1,0 +1,123 @@
+---
+permalink: linux/commands/cidyzygf
+title: Linux commands for sorting and searching information
+---
+
+<div class="titlecard">{{ page.title }}</div>
+<div class="terminalcard">sort tsort and grep commands with options</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>ls</mark>
+a.out  codeaft.cpp   codeaft.py    Documents  Music     Public     Videos
+codeaft.c   Codeaft.java  Desktop  Downloads  Pictures  Templates
+
+codeaft@codeaft:~$ <mark>touch Weekdays</mark>
+codeaft@codeaft:~$ <mark>ls</mark>
+a.out  codeaft.cpp   codeaft.py    Documents  Music     Public     Videos
+codeaft.c   Codeaft.java  Desktop  Downloads  Pictures  Templates  Weekdays
+
+codeaft@codeaft:~$ <mark>cat Weekdays</mark>
+Weekdays
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+
+codeaft@codeaft:~$ <mark>sort Weekdays</mark>
+Friday
+Friday
+Monday
+Monday
+Thursday
+Thursday
+Tuesday
+Tuesday
+Wednesday
+Wednesday
+Weekdays
+
+codeaft@codeaft:~$ <mark>sort Weekdays | uniq</mark>
+Friday
+Monday
+Thursday
+Tuesday
+Wednesday
+Weekdays
+<hr>codeaft@codeaft:~$ <mark>tsort Weekdays</mark>
+<error>tsort: Weekdays: input contains an odd number of tokens</error>
+
+codeaft@codeaft:~$ <mark>cat Weekdays</mark> 
+Weekdays
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Monday
+Tuesday
+Wednesday
+Thursday
+
+codeaft@codeaft:~$ <mark>tsort Weekdays</mark>
+Weekdays
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+
+codeaft@codeaft:~$ <mark>tac Weekdays</mark> 
+Thursday
+Wednesday
+Tuesday
+Monday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Weekdays
+<hr>codeaft@codeaft:~$ <mark>cat Weekdays | grep day</mark>
+Weekdays
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Monday
+Tuesday
+Wednesday
+Thursday
+
+codeaft@codeaft:~$ <mark>grep day Weekdays</mark>
+Weekdays
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Monday
+Tuesday
+Wednesday
+Thursday
+
+codeaft@codeaft:~$ <mark>grep -v days Weekdays</mark> 
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Monday
+Tuesday
+Wednesday
+Thursday
+
+codeaft@codeaft:~$ <mark>grep -i days Weekdays</mark> 
+Weekdays
+codeaft@codeaft:~$ 
+</pre></span>

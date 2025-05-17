@@ -1,0 +1,74 @@
+---
+permalink: linux/commands/cidaznye
+title: Linux commands to create and remove the directories/sub-directories
+---
+
+<div class="titlecard">{{ page.title }}</div>
+<div class="terminalcard">mkdir command with options</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>ls</mark>
+a.out  codeaft.cpp   codeaft.py    Documents  Music     Public     Videos
+codeaft.c   Codeaft.java  Desktop  Downloads  Pictures  Templates  Weekdays
+
+codeaft@codeaft:~$ <mark>pwd</mark>
+/home/codeaft
+
+codeaft@codeaft:~$ <mark>mkdir Linux</mark>
+codeaft@codeaft:~$ <mark>cd Linux/</mark>
+
+codeaft@codeaft:~/Linux$ <mark>pwd</mark>
+/home/codeaft/Linux
+<hr>codeaft@codeaft:~/Linux$ <mark>ls</mark>
+codeaft@codeaft:~/Linux$ <mark>mkdir -p Flavours/{Ubuntu/{Ubuntu_18.04,Ubuntu_20.04},Fedora/{Fedora_31,Fedora_32}}</mark>
+codeaft@codeaft:~/Linux$ <mark>ls</mark>
+Flavours
+
+codeaft@codeaft:~/Linux$ <mark>cd Flavours/Ubuntu/</mark>
+codeaft@codeaft:~/Linux/Flavours/Ubuntu$ <mark>ls</mark>
+Ubuntu_18.04  Ubuntu_20.04
+
+codeaft@codeaft:~/Linux/Flavours/Ubuntu$ <mark>cd ..</mark>
+codeaft@codeaft:~/Linux/Flavours$ <mark>ls</mark>
+Fedora  Ubuntu
+
+codeaft@codeaft:~/Linux/Flavours$ <mark>mkdir -m a=r KaliLinux</mark>
+codeaft@codeaft:~/Linux/Flavours$ <mark>ls</mark>
+Fedora  KaliLinux  Ubuntu
+
+codeaft@codeaft:~/Linux/Flavours$ <mark>ls -l</mark>
+total 12
+drwxrwxr-x 4 codeaft codeaft 4096 Jun 13 12:03 Fedora
+dr--r--r-- 2 codeaft codeaft 4096 Jun 13 12:04 KaliLinux
+drwxrwxr-x 4 codeaft codeaft 4096 Jun 13 12:03 Ubuntu
+
+codeaft@codeaft:~/Linux/Flavours$ <mark>mkdir -v CentOS LinuxMint</mark>
+mkdir: created directory 'CentOS'
+mkdir: created directory 'LinuxMint'
+
+codeaft@codeaft:~/Linux/Flavours$ <mark>ls</mark>
+CentOS  Fedora  KaliLinux  LinuxMint  Ubuntu
+</pre></span>
+
+<div class="terminalcard">rmdir command with options</div>
+<span><pre>
+codeaft@codeaft:~/Linux/Flavours$ <mark>rmdir CentOS/</mark>
+codeaft@codeaft:~/Linux/Flavours$ <mark>ls</mark>
+Fedora  KaliLinux  LinuxMint  Ubuntu
+
+codeaft@codeaft:~/Linux/Flavours$ <mark>rm -r KaliLinux/</mark>
+rm: remove write-protected directory 'KaliLinux/'? y
+
+codeaft@codeaft:~/Linux/Flavours$ <mark>ls</mark>
+Fedora LinuxMint Ubuntu
+
+codeaft@codeaft:~/Linux/Flavours$ <mark>cd</mark>
+codeaft@codeaft:~$ <mark>ls</mark>
+a.out  codeaft.cpp   codeaft.py    Documents  Linux  Pictures  Templates  Weekdays
+codeaft.c   Codeaft.java  Desktop  Downloads  Music  Public    Videos
+
+codeaft@codeaft:~$ <mark>rm -rf Linux/</mark>
+codeaft@codeaft:~$ <mark>ls</mark>
+a.out  codeaft.cpp   codeaft.py    Documents  Music     Public     Videos
+codeaft.c   Codeaft.java  Desktop  Downloads  Pictures  Templates  Weekdays
+codeaft@codeaft:~$ 
+</pre></span>

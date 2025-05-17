@@ -1,0 +1,66 @@
+---
+permalink: linux/commands/cidspezu
+title: Linux commands to change the text cases and number systems
+---
+
+<div class="titlecard">{{ page.title }}</div>
+<div class="terminalcard">conversion of text format</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>echo 'Hello, World!' | tr "[:lower:]" "[:upper:]"</mark>
+HELLO, WORLD!
+
+codeaft@codeaft:~$ <mark>echo 'HeLLo, WORLD!' | tr "[:upper:]" "[:lower:]"</mark>
+hello, world!
+<hr>codeaft@codeaft:~$ <mark>typeset -l lcase</mark>
+codeaft@codeaft:~$ <mark>lcase="Hello, World!"</mark>
+codeaft@codeaft:~$ <mark>echo $lcase</mark>
+hello, world!
+
+codeaft@codeaft:~$ <mark>typeset -u ucase</mark>
+codeaft@codeaft:~$ <mark>ucase="Hello, World!"</mark>
+codeaft@codeaft:~$ <mark>echo $ucase</mark>
+HELLO, WORLD!
+<hr>codeaft@codeaft:~$ <mark>s1="HeLLo, WORLD!"</mark>
+codeaft@codeaft:~$ <mark>echo $s1</mark>
+HeLLo, WORLD!
+
+codeaft@codeaft:~$ <mark>echo ${s1,,}</mark>
+hello, world!
+
+codeaft@codeaft:~$ <mark>echo ${s1^^}</mark>
+HELLO, WORLD!
+</pre></span>
+
+<div class="terminalcard">conversion of number systems</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>printf "Octal of 65535 = %o\n" 65535</mark>
+Octal of 65535 = 177777
+
+codeaft@codeaft:~$ <mark>printf "Hexadecimal of 65535 = %x\n" 65535</mark>
+Hexadecimal of 65535 = ffff
+
+codeaft@codeaft:~$ <mark>printf "Floating point in 65535 = %f\n" 65535</mark>
+Floating point in 65535 = 65535.000000
+<hr>codeaft@codeaft:~$ <mark>D2B=({0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1})</mark>
+codeaft@codeaft:~$ <mark>echo "Binary of 255 = "${D2B[255]}</mark>
+Binary of 255 = 11111111
+
+codeaft@codeaft:~$ <mark>echo "Decimal of 01AE = "$((0x01AE))</mark>
+Decimal of 01AE = 430
+
+codeaft@codeaft:~$ <mark>echo "Decimal of 11111111 = "$((2#11111111))</mark>
+Decimal of 11111111 = 255
+
+codeaft@codeaft:~$ <mark>echo "obase=2;255" | bc</mark>
+11111111
+
+codeaft@codeaft:~$ <mark>echo "ibase=2;11111111" | bc</mark>
+255
+
+codeaft@codeaft:~$ <mark>echo "obase=7;255" | bc</mark>
+513
+
+codeaft@codeaft:~$ <mark>echo "obase=16;255" | bc</mark>
+FF
+codeaft@codeaft:~$ 
+</pre></span>

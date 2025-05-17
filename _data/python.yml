@@ -1,0 +1,190 @@
+grandparent: 
+  - parent: Python Fundamentals
+    subtree: Fundamentals
+    url: python/fundamentals
+    children: 
+      - title: Python Arithmetic Operations
+        url: python/fundamentals/cidawgvo
+      - title: Python Logical Operations
+        url: python/fundamentals/cidexazw
+      - title: Python Built-in Functions
+        url: python/fundamentals/cidgzwzz
+      - title: Python Mathematical Functions
+        url: python/fundamentals/cidtgvee
+      - title: Python Trigonometric Functions
+        url: python/fundamentals/ciddveuh
+      - title: How to use Python help utility
+        url: python/fundamentals/cidlvgqy
+      - title: How to compile a Python program using the py_compile module
+        url: python/fundamentals/cidgvzwx
+      - title: How to view the byte code instructions using the dis module
+        url: python/fundamentals/cidbduad
+      - title: Python program to perform the arithmetic operations
+        url: python/fundamentals/cidyosqg
+      - title: Python program to perform the relational operations
+        url: python/fundamentals/cidetapa
+      - title: Python program to swap the given numbers
+        url: python/fundamentals/cidylqva
+      - title: Python program to print the runtime arguments
+        url: python/fundamentals/cidzidwc
+      - title: Python program for conversion of the number systems
+        url: python/fundamentals/cidvaqvy
+      - title: Python program to demonstrate debugging of script
+        url: python/fundamentals/cidzsead
+      - title: Python program to print the current date and time
+        url: python/fundamentals/cidxdagf
+      - title: Python implementation of the calendar module
+        url: python/fundamentals/cidscgzf
+
+  - parent: Python Control Statements
+    subtree: Controls
+    url: python/controls
+    children: 
+      - title: Python program to check the equality of given numbers
+        url: python/controls/cidgmsmv
+      - title: Python program to check the given number is even or odd
+        url: python/controls/cidgvewa
+      - title: Python program to check whether a given character is an alphabet
+        url: python/controls/cidwmaxe
+      - title: Python program to check whether a given year is a leap
+        url: python/controls/cidrwkxe
+
+  - parent: Python Loops
+    subtree: Loops
+    url: python/loops
+    children: 
+      - title: Python program to print the star pyramid patterns
+        url: python/loops/cidvfyae
+      - title: Python program to print the ASCII values
+        url: python/loops/cidwauzw
+      - title: Python program to print the prime numbers
+        url: python/loops/cidwbtvh
+      - title: Python program to find the factorial of a given number
+        url: python/loops/cidagzvl
+      - title: Python program to print the sum of all digits in a given number
+        url: python/loops/cidalewy
+      - title: Python program to print the multiplication table of a given number
+        url: python/loops/cidalmxy
+      - title: Python program to check whether a given number is a palindrome
+        url: python/loops/cidggkza
+      - title: Python program to print the list of all leap years
+        url: python/loops/cidrawfa
+
+  - parent: Python Strings
+    subtree: Strings
+    url: python/strings
+    children: 
+      - title: Python Basic String Operations
+        url: python/strings/ciddduzz
+      - title: Python Strings Comparison
+        url: python/strings/cidkgyxy
+      - title: Python String Slicing
+        url: python/strings/cidkwdvv
+      - title: Python to check the given string is alphanumeric
+        url: python/strings/cidozvev
+      - title: Python Strings Methods
+        url: python/strings/cidyqzaz
+
+  - parent: Python Data Structures
+    subtree: Data Structures
+    url: python/ds
+    children: 
+      - title: Python Lists
+        url: python/ds/cidkzaae
+      - title: Python Tuples
+        url: python/ds/cidcgaye
+      - title: Python Sets
+        url: python/ds/cidvzzvi
+      - title: Python Dictionary
+        url: python/ds/cidvwkzg
+
+  - parent: Python Arrays
+    subtree: Arrays
+    url: python/arrays
+    children: 
+      - title: Python Arrays using Array module
+        url: python/arrays/cidwzddw
+      - title: Python indexing and slicing on an array
+        url: python/arrays/ciddrehr
+      - title: Python NumPy Arrays
+        url: python/arrays/cidzyigz
+      - title: Python to create a view() and copy() of NumPy arrays
+        url: python/arrays/ciddeqlk
+      - title: Python NumPy Arrays Comparison
+        url: python/arrays/cidevyzz     
+      - title: Python NumPy Mathematical Functions for Arrays
+        url: python/arrays/cidykhed
+      - title: Python indexing and slicing on NumPy arrays
+        url: python/arrays/cidzxhny
+      - title: How to create arrays using the linspace() and logspace() functions
+        url: python/arrays/cidskedg
+      - title: How to create arrays using the arange(), zeros(), and ones() functions
+        url: python/arrays/cidvalhi
+      - title: Python NumPy Multi-dimensional Arrays
+        url: python/arrays/cideazqm
+      - title: Python NumPy Matrices
+        url: python/arrays/ciddkizz
+      - title: Python to print the transpose of a given matrix
+        url: python/arrays/cideghdz
+      - title: Python to perform arithmetic operations on two matrices
+        url: python/arrays/cidomegf
+
+  - parent: Python File Handling
+    subtree: FileIO
+    url: python/fileio
+    children: 
+      - title: Python program to count the lines, words, and characters from a given file
+        url: python/fileio/ciddzeng
+      - title: Python program to count the frequency of words in a given file
+        url: python/fileio/cidlyeay
+
+  - parent: Python Networking
+    subtree: Networking
+    url: python/networking
+    children: 
+      - title: Python networking using the netaddr module
+        url: python/networking/cidyslwy
+      - title: Python program for two way communication using socket programming
+        url: python/networking/cidgzlzd
+      - title: Python program for file sharing using socket programming
+        url: python/networking/cidkyirx
+
+  - parent: Python Database Connectivity
+    subtree: DBC
+    url: python/dbc
+    children: 
+      - title: How to install pymysql and pymongo on Ubuntu
+        url: python/dbc/cidwdnax
+      - title: Python MySQL to connect, create a database, and table
+        url: python/dbc/cidvdwzz
+      - title: Python MySQL to insert and retrieve the records from a table
+        url: python/dbc/cidtyalw
+      - title: Python MySQL to update the table records
+        url: python/dbc/cidswyzn
+      - title: Python MongoDB to connect, create database, and collection
+        url: python/dbc/cidmyyzz
+      - title: Python MongoDB to insert and retrieve the documents from a collection
+        url: python/dbc/cidgulma
+
+sidenav:
+  - parent: Python Programming
+    url: python
+    children: 
+      - title: Python Fundamentals
+        url: python/fundamentals
+      - title: Python Control Statements
+        url: python/controls
+      - title: Python Loops
+        url: python/loops
+      - title: Python Strings
+        url: python/strings
+      - title: Python Data Structures
+        url: python/ds
+      - title: Python Arrays
+        url: python/arrays
+      - title: Python File Handling
+        url: python/fileio
+      - title: Python Networking
+        url: python/networking
+      - title: Python Database Connectivity
+        url: python/dbc

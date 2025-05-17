@@ -1,0 +1,28 @@
+grandparent: 
+  - parent: R Command Line Interface (CLI)
+    subtree: CLI
+    url: r/cli
+    children: 
+      - title: R Mathematical Operations and Functions
+        url: r/cli/cidegdgz
+      - title: R Date and Time Functions
+        url: r/cli/cidexdvy
+      - title: R Functions
+        url: r/cli/cidadmvw
+      - title: R Strings
+        url: r/cli/cidgebwv
+      - title: R Vectors
+        url: r/cli/ciddlyle
+      - title: R Lists
+        url: r/cli/cidarfve
+      - title: R Matrices
+        url: r/cli/cidexavz
+      - title: R Data Frames
+        url: r/cli/cidazeek
+
+sidenav:
+  - parent: R Programming
+    url: r
+    children: 
+      - title: R Command Line Interface (CLI)
+        url: r/cli

@@ -1,0 +1,28 @@
+---
+permalink: cluster/selenium3/cideevem
+title: Selenium Java to get the title of a given webpage
+---
+
+<div class="codecard">{{ page.title }} using getTitle() method</div>
+<div class="card">{{ site.javafile }}</div>
+<pre class="code">{%- highlight java -%}
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+class Codeaft 
+{
+    public static void main(String[] args) 
+    {
+        System.setProperty("webdriver.chrome.driver", "/home/codeaft/drivers/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.navigate().to("https://codeaft.com/testapp/");
+        System.out.println(driver.getTitle());
+        driver.close();
+    }
+}
+{%- endhighlight -%}</pre>
+<div class="card">{{ site.output }}</div>
+<span><pre>
+Codeaft's TestApp
+
+</pre></span>

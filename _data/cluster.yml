@@ -1,0 +1,184 @@
+grandparent: 
+  - parent: Selenium 3
+    subtree: Selenium 3
+    url: cluster/selenium3
+    children: 
+      - title: How to launch the browser using Selenium Java
+        url: cluster/selenium3/cidrvyfv
+      - title: How to launch the browser using Selenium Python
+        url: cluster/selenium3/cidureze
+      - title: How to launch the Chromium browser using Selenium Java
+        url: cluster/selenium3/cidzzegt
+      - title: Selenium Java to maximize the browser window and get its properties
+        url: cluster/selenium3/cidavaga
+      - title: Selenium Java to resize the browser window
+        url: cluster/selenium3/cidecmzw
+      - title: Selenium Java to get the present browser URL
+        url: cluster/selenium3/cidlarzw
+      - title: Selenium Java to get the page source of a URL
+        url: cluster/selenium3/cidzzyzd
+      - title: Selenium Java to get the title of a given webpage
+        url: cluster/selenium3/cideevem
+      - title: Selenium Java to compare the title of a given webpage
+        url: cluster/selenium3/cidzgvwt
+      - title: Selenium Java to get the tag name
+        url: cluster/selenium3/cidavegp
+      - title: Selenium Java to get the title of a given webpage using the getAttribute() method
+        url: cluster/selenium3/cidzezzd
+      - title: Selenium Java to get the current date and time using sendKeys
+        url: cluster/selenium3/cidlwmed
+      - title: Selenium Java to clear and enter the value in an input field
+        url: cluster/selenium3/ciddzedv
+      - title: Selenium Java to copy and paste the text in an input field
+        url: cluster/selenium3/cidgvvpw
+      - title: Selenium Java to select the radio button using cssSelector
+        url: cluster/selenium3/ciddwygy
+      - title: Selenium Java to get the attribute name using relative XPath
+        url: cluster/selenium3/cidydnod
+      - title: Selenium Java to locate a web element using the contains() and starts-with() methods
+        url: cluster/selenium3/cidxddhz
+      - title: Selenium Java to locate a web element using the text() method
+        url: cluster/selenium3/cidyazdw
+      - title: Selenium Java to locate a web element using the last() method
+        url: cluster/selenium3/cidzwqle
+      - title: Selenium Java to locate a web element using the following and preceding XPath axes
+        url: cluster/selenium3/cidyxewe
+      - title: Selenium Java to select the radio button using XPath
+        url: cluster/selenium3/cidzctqk
+      - title: Selenium Java to demonstrate the use of ChromeOptions class
+        url: cluster/selenium3/cidggyzb
+      - title: Selenium Java to get the browser details using Capabilities
+        url: cluster/selenium3/cidspasn
+      - title: Selenium Java to select dropdown choice using selectByVisibleText() method
+        url: cluster/selenium3/cidaiwex
+      - title: Selenium Java to select dropdown choice using selectByIndex() method
+        url: cluster/selenium3/cidzfnwc
+      - title: Selenium Java to select dropdown choice using selectByValue() method
+        url: cluster/selenium3/cidezzgb
+      - title: Selenium Java for mouse events using the Action class
+        url: cluster/selenium3/cidzvzvy
+      - title: Selenium Java to perform series of multiple actions using Action and Actions selenium3
+        url: cluster/selenium3/cidgezvd
+      - title: Selenium Java to select an option from the Chrome context menu
+        url: cluster/selenium3/cidyphyw
+      - title: Selenium Java to capture screenshots using Robot class
+        url: cluster/selenium3/cidwvybn
+      - title: Selenium Java to get domain name, URL, and page title using JavascriptExecutor
+        url: cluster/selenium3/cidmweyz
+      - title: Selenium Java to generate alert and navigate to another page using JavascriptExecutor
+        url: cluster/selenium3/cidggyby 
+      - title: Selenium Java to scroll down the page at the bottom using JavascriptExecutor
+        url: cluster/selenium3/ciddewhz
+      - title: Selenium Java to take screenshots using TakesScreenshot interface
+        url: cluster/selenium3/cidgqeze
+      - title: Selenium Java Page Object Model with Page Factory
+        url: cluster/selenium3/cidgvdks
+      - title: Selenium Java Page Object Model Example 1
+        url: cluster/selenium3/cidvadve
+      - title: Selenium Java Page Object Model Example 2
+        url: cluster/selenium3/ciddyzek
+      - title: How to read an Excel file using Apache POI
+        url: cluster/selenium3/cidhvzcz
+      - title: How to compare two Excel sheets using Apache POI
+        url: cluster/selenium3/cidlevgg
+      - title: How to use TestNG Annotations in Selenium
+        url: cluster/selenium3/cidvrrkz
+      - title: How to use priority and dependencies in TestNG
+        url: cluster/selenium3/cideeaqo
+      - title: How to define dependencies between groups in TestNG XML file
+        url: cluster/selenium3/cideafrk
+      - title: How to run the same method multiple times using the invocationCount in TestNG
+        url: cluster/selenium3/cidxxztd
+      - title: How to perform load testing using the invocationCount and threadPoolSize parameters in TestNG
+        url: cluster/selenium3/cidavbeq
+      - title: How to use TestNG Parameters and Data Provider for Data Driven Testing
+        url: cluster/selenium3/cidekvaz
+      - title: How to run parallel tests with Selenium WebDriver and TestNG
+        url: cluster/selenium3/cidyddge
+      - title: How to use and implement TestNG Listeners
+        url: cluster/selenium3/cidgavxz
+      - title: How to generate Extent Reports in Selenium WebDriver
+        url: cluster/selenium3/cidysafu
+
+  - parent: VBScript
+    subtree: VBScript
+    url: cluster/vbscript
+    children: 
+      - title: VBScript to print Hello World
+        url: cluster/vbscript/cidgyved
+      - title: VBScript to perform the arithmetic operations
+        url: cluster/vbscript/cidbwssb
+      - title: VBScript to perform the string operations
+        url: cluster/vbscript/cidyzuir
+      - title: VBScript to demonstrate the use of Array
+        url: cluster/vbscript/cidzovgy
+      - title: VBScript to sort the Array elements using Bubble sort
+        url: cluster/vbscript/cidauerk
+      - title: VBScript implementation of Fibonacci series
+        url: cluster/vbscript/cidfvdhv
+      - title: VBScript to generate the random numbers
+        url: cluster/vbscript/cidzdzhz
+      - title: VBScript to demonstrate the use of conversion functions
+        url: cluster/vbscript/cidnnyye
+      - title: VBScript to demonstrate the use of format functions
+        url: cluster/vbscript/cidkavew
+      - title: VBScript to demonstrate the use of math functions
+        url: cluster/vbscript/cideygvz
+      - title: VBScript to demonstrate the use of date and time functions
+        url: cluster/vbscript/cidkzzak
+      - title: VBScript to perform ArrayList operations
+        url: cluster/vbscript/cidweeat
+      - title: VBScript to perform SortedList operation
+        url: cluster/vbscript/ciddxmey
+      - title: VBScript to perform Stack operations
+        url: cluster/vbscript/cidgdpvd
+      - title: VBScript to perform Queue operations
+        url: cluster/vbscript/cidfaydi
+      - title: VBScript to create an empty folder
+        url: cluster/vbscript/cideauvd
+      - title: VBScript to create an empty text file
+        url: cluster/vbscript/cidahmud
+      - title: VBScript to print the file properties
+        url: cluster/vbscript/cideegki
+      - title: VBScript to count the total number of files in a folder
+        url: cluster/vbscript/cidczhwa
+      - title: VBScript to count the total number of files in a folder of the same extension
+        url: cluster/vbscript/cidzwzzd
+      - title: VBScript to read and write the data in a text file
+        url: cluster/vbscript/cidltzze
+      - title: VBScript to format the text in a Word document
+        url: cluster/vbscript/cidmvezv
+      - title: VBScript to create an Excel in one folder and paste into another folder
+        url: cluster/vbscript/cidhywgz
+      - title: VBScript to read the data from an Excel sheet using ADODB object
+        url: cluster/vbscript/cidyueyg
+
+  - parent: Ranorex
+    subtree: Ranorex
+    url: cluster/ranorex
+    children: 
+      - title: How to open and close a browser using the Process class in Ranorex
+        url: cluster/ranorex/cidwryqa
+      - title: How to get a browser details using the WebDocument class in Ranorex
+        url: cluster/ranorex/cidgvzyw
+      - title: How to select the Chrome context menu option in Ranorex
+        url: cluster/ranorex/cidewwzv
+      - title: How to compare the Excel sheets using Interop objects in Ranorex
+        url: cluster/ranorex/cidfzznc
+      - title: How to create, insert and save the Excel in Ranorex
+        url: cluster/ranorex/cidcewwv
+      - title: How to read the Excel specific row and column data in Ranorex
+        url: cluster/ranorex/cidgyvzz
+      - title: How to format the Excel sheet in Ranorex
+        url: cluster/ranorex/cidwwilz
+
+sidenav:
+  - parent: Cluster
+    url: cluster
+    children:  
+      - title: Selenium 3
+        url: cluster/selenium3
+      - title: VBScript
+        url: cluster/vbscript
+      - title: Ranorex
+        url: cluster/ranorex

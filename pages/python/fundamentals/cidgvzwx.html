@@ -1,0 +1,33 @@
+---
+permalink: python/fundamentals/cidgvzwx
+title: How to compile a Python program using the py_compile module
+---
+
+<div class="codecard">{{ page.title }}</div>
+<div class="card">{{ site.pyfile }}</div>
+<pre class="code">{%- highlight python -%}
+a,b=10,20
+(a,b)=(b,a)
+print(a,b)
+{%- endhighlight -%}</pre>
+<div class="card">{{ site.output }}</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>ls</mark>
+codeaft.csv  Desktop    Downloads  Pictures  Templates
+codeaft.py   Documents  Music      Public    Videos
+codeaft@codeaft:~$ <mark>python3 -m py_compile codeaft.py</mark>
+codeaft@codeaft:~$ <mark>ls</mark>
+codeaft.csv  Desktop    Downloads  Pictures  __pycache__  Videos
+codeaft.py   Documents  Music      Public    Templates
+codeaft@codeaft:~$ <mark>cd __pycache__/</mark>
+codeaft@codeaft:~/__pycache__$ <mark>ls</mark>
+codeaft.cpython-312.pyc
+codeaft@codeaft:~/__pycache__$ <mark>python3 codeaft.cpython-312.pyc</mark>
+20 10
+codeaft@codeaft:~/__pycache__$ <mark>cat codeaft.cpython-312.pyc</mark>
+�
+�!��*�d\ZZeecZZeee�y))�
+�N)�a�b�print���codeaft.py&lt;module>r
+s"��	���!����1��a��
+codeaft@codeaft:~/__pycache__$ 
+</pre></span>

@@ -1,0 +1,41 @@
+---
+permalink: octave/strings/cideceiw
+title: Octave string indexing
+---
+
+<div class="terminalcard">{{ page.title }}</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>octave</mark>
+...
+octave> <mark>codeaft = "Codeaft"</mark>
+codeaft = Codeaft
+
+octave> <mark>startsWith(codeaft, "KODING")</mark>
+ans = 0
+
+octave> <mark>startsWith(codeaft, "Koding")</mark>
+ans = 1
+
+octave> <mark>endsWith(codeaft, "ing")</mark>
+ans = 0
+
+octave> <mark>endsWith(codeaft, "dow")</mark>
+ans = 1
+
+octave> <mark>index(codeaft, "in")</mark>
+ans = 4
+
+octave> <mark>rindex(codeaft, "in")</mark>
+ans = 8
+
+octave> <mark>unicode_idx(codeaft)</mark>
+ans =
+
+    1    2    3    4    5    6    7    8    9   10   11   12
+
+octave> <mark>strfind(codeaft, "WINDOW")</mark>
+ans = [](0x0)
+
+octave> <mark>strfind(codeaft, "window")</mark>
+ans = 7
+</pre></span>

@@ -1,0 +1,61 @@
+---
+permalink: r/cli/cidgebwv
+title: R Strings
+---
+
+<div class="terminalcard">{{ page.title }}</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>R</mark>
+...
+> <mark>"Codeaft"</mark>
+[1] "Codeaft"
+
+> <mark>print("Hello World")</mark>
+[1] "Hello World"
+
+> <mark>cat("Hello World\n")</mark>
+Hello World
+
+> <mark>length("Codeaft")</mark>
+[1] 1
+
+> <mark>nchar("Codeaft")</mark>
+[1] 12
+
+> <mark>toupper("Codeaft")</mark>
+[1] "CODEAFT"
+
+> <mark>tolower("CODEAFT")</mark>
+[1] "codeaft"
+
+> <mark>substring("Codeaft",7,12)</mark>
+[1] "Window"
+
+> <mark>paste("Koding","Window")</mark>
+[1] "Koding Window"
+
+> <mark>paste("Koding","Window",sep="")</mark>
+[1] "Codeaft"
+
+> <mark>paste("Koding","Window",sep="@@@")</mark>
+[1] "Koding@@@Window"
+<hr>
+> <mark>format("Codeaft",width=20)</mark>
+[1] "Codeaft        "
+
+> <mark>format("Codeaft",width=20,justify="")</mark>
+<error>Error in match.arg(justify) : 
+  'arg' should be one of “left”, “right”, “centre”, “none”</error>
+
+> <mark>format("Codeaft",width=20,justify="l")</mark>
+[1] "Codeaft        "
+
+> <mark>format("Codeaft",width=20,justify="c")</mark>
+[1] "    Codeaft    "
+
+> <mark>format("Codeaft",width=20,justify="r")</mark>
+[1] "        Codeaft"
+
+> <mark>format("Codeaft",width=20,justify="n")</mark>
+[1] "Codeaft"
+</pre></span>

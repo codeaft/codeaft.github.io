@@ -1,0 +1,20 @@
+---
+permalink: python/fundamentals/cidzidwc
+title: Python program to print the runtime arguments
+---
+
+<div class="codecard">{{ page.title }}</div>
+<div class="card">{{ site.pyfile }}</div>
+<pre class="code">{%- highlight python -%}
+import sys 
+print("File Name",sys.argv[0])
+print("Number of Arguments",len(sys.argv))
+print("Arguments",str(sys.argv))
+{%- endhighlight -%}</pre>
+<div class="card">{{ site.output }}</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>python3 codeaft.py C1 C2</mark>
+File Name codeaft.py
+Number of Arguments 3
+Arguments ['codeaft.py', 'C1', 'C2']
+</pre></span>

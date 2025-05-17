@@ -1,0 +1,60 @@
+---
+permalink: linux/commands/cidnvuaa
+title: Linux commands to create and remove a file
+---
+
+<div class="titlecard">{{ page.title }}</div>
+<div class="terminalcard">touch and cat commands to create the files</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>ls</mark>
+a.out  KW.class  Codeaft.java  Desktop    Downloads	Pictures  Templates  Weekdays
+codeaft.c   codeaft.csv	 codeaft.py	  Documents  Music	Public	  Videos
+
+codeaft@codeaft:~$ <mark>touch Ubuntu.txt Fedora.txt</mark>
+codeaft@codeaft:~$ <mark>ls</mark>
+a.out	  codeaft.csv   Desktop    Fedora.txt  Public      Videos
+codeaft.c	  Codeaft.java  Documents  Music	  Templates   Weekdays
+KW.class  codeaft.py    Downloads  Pictures	  Ubuntu.txt
+
+codeaft@codeaft:~$ <mark>cat > KaliLinux</mark>
+^C
+codeaft@codeaft:~$ <mark>ls</mark>
+a.out	  codeaft.csv   Desktop    Fedora.txt  Pictures   Ubuntu.txt
+codeaft.c	  Codeaft.java  Documents  KaliLinux   Public     Videos
+KW.class  codeaft.py    Downloads  Music	  Templates  Weekdays
+
+codeaft@codeaft:~$ <mark>file Fedora.txt codeaft.c codeaft.csv</mark>
+Fedora.txt: empty
+codeaft.c:       C source, ASCII text
+codeaft.csv:     CSV text
+</pre></span>
+
+<div class="terminalcard">rm command to remove the file(s)</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>rm KaliLinux Weekdays</mark>
+codeaft@codeaft:~$ <mark>ls</mark>
+a.out	  codeaft.csv   Desktop    Fedora.txt  Public      Videos
+codeaft.c	  Codeaft.java  Documents  Music	  Templates
+KW.class  codeaft.py    Downloads  Pictures	  Ubuntu.txt
+</pre></span>
+
+<div class="terminalcard">rm command with a regular expression to remove multiple files of the same extension</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>rm *.txt</mark>
+codeaft@codeaft:~$ <mark>ls -1</mark>
+a.out
+codeaft.c
+KW.class
+codeaft.csv
+Codeaft.java
+codeaft.py
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+Templates
+Videos
+codeaft@codeaft:~$ 
+</pre></span>

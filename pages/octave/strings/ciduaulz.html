@@ -1,0 +1,39 @@
+---
+permalink: octave/strings/ciduaulz
+title: Octave basic string operations
+---
+
+<div class="terminalcard">{{ page.title }}</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>octave</mark>
+...
+octave> <mark>codeaft = "Koding"</mark>
+codeaft = Koding
+
+octave> <mark>codeaft = [codeaft, "window"]</mark>
+codeaft = Codeaft
+
+octave> <mark>typeinfo(codeaft)</mark>
+ans = string
+
+octave> <mark>codeaft(6)</mark>
+ans = g
+
+octave> <mark>codeaft(2:11)</mark>
+ans = odingwindo
+
+octave> <mark>length(codeaft)</mark>
+ans = 12
+
+octave> <mark>fliplr(codeaft)</mark>
+ans = wodniwgnidoK
+
+octave> <mark>toupper(codeaft)</mark>
+ans = CODEAFT
+
+octave> <mark>tolower(codeaft)</mark>
+ans = codeaft
+
+octave> <mark>sort(codeaft)</mark>
+ans = Kddgiinnooww
+</pre></span>

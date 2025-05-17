@@ -1,0 +1,177 @@
+---
+permalink: python/strings/cidyqzaz
+title: Python Strings Methods
+---
+
+<div class="terminalcard">String casefold(), capitalize() and title() methods</div>
+<span><pre>
+codeaft@codeaft:~$ <mark>python3</mark>
+...
+>>> <mark>codeaft="KoDiNgWiNdOw"</mark>
+>>> <mark>codeaft.casefold()</mark>
+'codeaft'
+
+>>> <mark>codeaft="CODEAFT"</mark>
+>>> <mark>codeaft.casefold()</mark>
+'codeaft'
+
+>>> <mark>codeaft="codeaft"</mark>
+>>> <mark>codeaft.casefold()</mark>
+'codeaft'
+
+>>> <mark>codeaft="koding window"</mark>
+>>> <mark>codeaft.capitalize()</mark>
+'Koding window'
+
+>>> <mark>codeaft.title()</mark>
+'Koding Window'    
+</pre></span>
+
+<div class="terminalcard">String upper(), lower() and swapcase() methods</div>
+<span><pre>
+>>> <mark>codeaft="codeaft"</mark>
+>>> <mark>codeaft.upper()</mark>
+'CODEAFT'
+
+>>> <mark>codeaft="CODEAFT"</mark>
+>>> <mark>codeaft.lower()</mark>
+'codeaft'
+
+>>> <mark>codeaft="Codeaft"</mark>
+>>> <mark>codeaft.swapcase()</mark>
+'kODINGwINDOW'    
+</pre></span>
+
+<div class="terminalcard">String rjust() and ljust() methods</div>
+<span><pre>
+>>> <mark>codeaft="Codeaft"</mark>
+>>> <mark>codeaft.rjust(20)</mark>
+'        Codeaft'
+
+>>> <mark>codeaft.ljust(20)</mark>
+'Codeaft        '
+</pre></span>
+
+<div class="terminalcard">String strip(), rstrip(), and lstrip() methods</div>
+<span><pre>
+>>> <mark>codeaft="    Codeaft           "</mark>
+>>> <mark>codeaft.strip()</mark>
+'Codeaft' 
+
+>>> <mark>codeaft.rstrip()</mark>
+'    Codeaft'
+
+>>> <mark>codeaft.lstrip()</mark>
+'Codeaft           '
+</pre></span>
+
+<div class="terminalcard">String find() and count() methods</div>
+<span><pre>
+>>> <mark>codeaft="Codeaft"</mark>
+>>> <mark>codeaft.find("W",0,len(codeaft))</mark>
+6
+
+>>> <mark>codeaft.find("in",0,len(codeaft))</mark>
+3
+
+>>> <mark>codeaft.count("in",1,len(codeaft))</mark>
+2
+
+>>> <mark>codeaft.count("o",1,len(codeaft))</mark>
+2  
+</pre></span>
+
+<div class="terminalcard">Strings sort() method</div>
+<span><pre>
+>>> <mark>codeaft=["K","O","D","I","N","G","W","I","N","D","O","W"]</mark>
+>>> <mark>codeaft.sort()</mark>
+>>> <mark>codeaft</mark>
+['D', 'D', 'G', 'I', 'I', 'K', 'N', 'N', 'O', 'O', 'W', 'W']
+
+>>> <mark>codeaft=("K","O","D","I","N","G","W","I","N","D","O","W")</mark>
+>>> <mark>codeaft.sort()</mark>
+<error>Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+AttributeError: 'tuple' object has no attribute 'sort'</error>
+</pre></span>
+
+<div class="terminalcard">String startswith() and endswith() methods</div>
+<span><pre>
+>>> <mark>codeaft="Codeaft"</mark>
+>>> <mark>codeaft.startswith("k")</mark>
+False
+
+>>> <mark>codeaft.startswith("K")</mark>
+True
+
+>>> <mark>codeaft.startswith("Codeaft")</mark>
+True
+
+>>> <mark>codeaft.endswith("Codeaft")</mark>
+True
+
+>>> <mark>codeaft.endswith("ow")</mark>
+True
+
+>>> <mark>codeaft.endswith("W")</mark>
+False  
+</pre></span>
+
+<div class="terminalcard">String zfill() and replace() method</div>
+<span><pre>
+>>> <mark>codeaft="Codeaft"</mark>
+>>> <mark>len(codeaft)</mark>
+12
+
+>>> <mark>codeaft.zfill(12)</mark>
+'Codeaft'
+
+>>> <mark>codeaft.zfill(15)</mark>
+'000Codeaft'
+
+>>> <mark>codeaft.zfill(0)</mark>
+'Codeaft'    
+
+>>> <mark>codeaft.replace("i","###")</mark>
+'Kod###ngW###ndow'
+
+>>> <mark>codeaft.replace("W","###",1)</mark>
+'Koding###indow'
+
+>>> <mark>codeaft.replace("d","###",2)</mark>
+'Ko###ingWin###ow'
+</pre></span>
+
+<div class="terminalcard">String split() and splitlines() methods</div>
+<span><pre>
+>>> <mark>codeaft="Koding\nWindow"</mark>
+>>> <mark>codeaft.splitlines()</mark>
+['Koding', 'Window']
+
+>>> <mark>codeaft.split("\n")</mark>
+['Koding', 'Window']    
+</pre></span>
+
+<div class="terminalcard">String functions and operations</div>
+<span><pre>
+>>> <mark>'Hello, World!'.split()</mark>
+['hello,', 'world!']
+
+>>> <mark>s1=("Hello, World!")</mark>
+>>> <mark>''.join(sorted(s1))</mark>
+' !,HWdellloor'
+
+>>> <mark>''.join(sorted(s1)).strip()</mark>
+'!,HWdellloor'
+
+>>> <mark>print(sorted(s1))</mark>
+[' ', '!', ',', 'H', 'W', 'd', 'e', 'l', 'l', 'l', 'o', 'o', 'r']
+
+>>> <mark>''.join(sorted(set(s1)))</mark>
+' !,HWdelor'
+
+>>> <mark>strings="Kiwi Apple Orange Banana Kiwi Apple Kiwi"</mark>
+>>> <mark>words=strings.split()</mark>
+>>> <mark>print(' '.join(sorted(set(words),key=words.index)))</mark>
+Kiwi Apple Orange Banana
+</pre></span>

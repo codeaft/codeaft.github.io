@@ -1,0 +1,150 @@
+grandparent: 
+  - parent: C Fundamentals
+    subtree: Fundamentals
+    url: c/fundamentals
+    children: 
+      - title: C Hello World program
+        url: c/fundamentals/ciduvqaa
+      - title: C Hello World program without using a semicolon
+        url: c/fundamentals/cidvfzhl
+      - title: C program to perform the arithmetic operations
+        url: c/fundamentals/cidadrfz
+      - title: C program to perform the boolean operations
+        url: c/fundamentals/cidzevtw
+      - title: C program to perform the relational operations
+        url: c/fundamentals/cidafefa
+      - title: C program to perform the arithmetic operations by accepting the inputs
+        url: c/fundamentals/cidzygvt
+      - title: C program to calculate the area and circumference of a circle
+        url: c/fundamentals/cidfdlyz
+      - title: C program to find the size of data types
+        url: c/fundamentals/cidmwpsv
+      - title: C program to find the range of data types
+        url: c/fundamentals/cidvgrag
+      - title: Find the output of C programs
+        url: c/fundamentals/cidwgvrq
+
+  - parent: C Control Statements
+    subtree: Controls
+    url: c/controls
+    children: 
+      - title: C program to check the given number is even or odd
+        url: c/controls/cidcheqs
+      - title: C program to check the equality of given numbers
+        url: c/controls/ciddwdgs
+      - title: C program to demonstrate the use of goto statement
+        url: c/controls/cidwagwy
+      - title: C program to demonstrate the use of break and continue statements
+        url: c/controls/cidecgzz
+      - title: Find the output of C programs
+        url: c/controls/cidebyay
+
+  - parent: C Loops
+    subtree: Loops
+    url: c/loops
+    children: 
+      - title: C program to print the even and odd numbers
+        url: c/loops/cidvmakr
+      - title: C program to print the star pyramid patterns
+        url: c/loops/cidzxwzt
+      - title: C program to print the star diamond pattern
+        url: c/loops/ciddysru
+      - title: C program to print the alphabets diamond pattern
+        url: c/loops/cidzsayg
+      - title: C program to find the min and max of given numbers
+        url: c/loops/cidruyaz
+      - title: C program to print alphabets using the ASCII values
+        url: c/loops/cidcdepo
+      - title: C program to reverse a given number
+        url: c/loops/ciduhwvy
+      - title: C program for the addition of N natural numbers
+        url: c/loops/cidztvdz
+      - title: C program to convert a binary number to an equivalent decimal number
+        url: c/loops/cidmwzzz
+      - title: C program to demonstrate the static and local variables
+        url: c/loops/ciddrnhk
+      - title: Find the output of C programs
+        url: c/loops/cidwevzk
+
+  - parent: C Strings
+    subtree: Strings
+    url: c/strings
+    children: 
+      - title: C program to find the length of a given string
+        url: c/strings/cidpnkez
+      - title: C program to concatenate the given strings
+        url: c/strings/cidozdow
+      - title: C program to copy the given string
+        url: c/strings/cidtwwpw
+      - title: C program to compare the given strings
+        url: c/strings/cidgdpvh
+      - title: C program to convert lowercase to an uppercase string
+        url: c/strings/cidvfzwd
+      - title: C program to convert uppercase to a lowercase string
+        url: c/strings/cidopzze
+      - title: C program to reverse a given string
+        url: c/strings/cidnsdqd
+      - title: C program to check whether a given string is a palindrome
+        url: c/strings/cidnrzbz
+
+  - parent: C Arrays
+    subtree: Arrays
+    url: c/arrays
+    children: 
+      - title: C program to print the given array
+        url: c/arrays/cidzizzy
+      - title: C program to print the length of a given array
+        url: c/arrays/cidzzdyp
+      - title: C program to print the sum of all numbers in a given array
+        url: c/arrays/cidavnal
+      - title: C program to find the min and max number from a given array
+        url: c/arrays/cidmqyew
+      - title: Find the output of C programs
+        url: c/arrays/cidaazcg
+
+  - parent: C Functions
+    subtree: Functions
+    url: c/functions
+    children: 
+      - title: C program to demonstrate the use of functions
+        url: c/functions/cidhxgee
+      - title: C menu-driven program for the arithmetic operations
+        url: c/functions/cidvdeeg
+      - title: C program to perform the Set operations (Union and Intersection)
+        url: c/functions/cidvbrva
+      - title: C program for the Tower of Hanoi
+        url: c/functions/cidcgdie
+      - title: C program to find the factorial of a given number
+        url: c/functions/cidbudev
+      - title: C program to find the factorial of a given number using recursion
+        url: c/functions/cidhfycr
+      - title: C program to print the current date and time
+        url: c/functions/cidvzlki
+
+  - parent: C Pointers
+    subtree: Pointers
+    url: c/pointers
+    children: 
+      - title: C program to find the address of variables
+        url: c/pointers/cidvdpgg
+      - title: C program to print the length of a given array without using sizeof
+        url: c/pointers/cidlwgzw
+
+sidenav: 
+  - parent: C Programming
+    url: c
+    children: 
+      - title: C Fundamentals
+        url: c/fundamentals
+      - title: C Control Statements
+        url: c/controls
+      - title: C Loops
+        url: c/loops
+      - title: C Strings
+        url: c/strings
+      - title: C Arrays
+        url: c/arrays     
+      - title: C Functions
+        url: c/functions
+      - title: C Pointers
+        url: c/pointers

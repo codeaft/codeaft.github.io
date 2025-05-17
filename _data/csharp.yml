@@ -1,0 +1,299 @@
+grandparent: 
+  - parent: C# Fundamentals
+    subtree: Fundamentals
+    url: csharp/fundamentals
+    children: 
+      - title: C# Hello World program
+        url: csharp/fundamentals/cidpdvhg
+      - title: C# program to perform the arithmetic operations
+        url: csharp/fundamentals/cidezexv
+      - title: C# program to perform the addition of two numbers
+        url: csharp/fundamentals/cidwvdgv
+      - title: C# program to calculate the area and circumference of a circle
+        url: csharp/fundamentals/cidgzkqy
+      - title: C# program to find the size of data types
+        url: csharp/fundamentals/cidgwqvi
+      - title: C# program to find the range of data types
+        url: csharp/fundamentals/cidmavwt
+
+  - parent: C# Control Statements
+    subtree: Controls
+    url: csharp/controls
+    children: 
+      - title: C# program to check the given number is even or odd
+        url: csharp/controls/cidvevfk
+      - title: C# program to check the given number is positive or negative
+        url: csharp/controls/cidxyezd
+      - title: C# program to demonstrate the use of goto statement
+        url: csharp/controls/cidwaztq
+      - title: C# program to demonstrate the use of break and continue statements
+        url: csharp/controls/cidwgfpv
+
+  - parent: C# Loops
+    subtree: Loops
+    url: csharp/loops
+    children: 
+      - title: C# program to use the loops and control statements
+        url: csharp/loops/cidxagiz
+      - title: C# program to print the even and odd numbers
+        url: csharp/loops/cidvyqsg
+      - title: C# program to print the star pyramid patterns
+        url: csharp/loops/cidpaavv
+      - title: C# program to print the star diamond pattern
+        url: csharp/loops/cidpcakz
+      - title: C# program to print the prime numbers
+        url: csharp/loops/cidzttew
+      - title: C# program to find the factorial of a given number
+        url: csharp/loops/cidvufpd
+      - title: C# program to print the Fibonacci series
+        url: csharp/loops/cidkerds
+      - title: C# program to print the Fibonacci series using recursion
+        url: csharp/loops/cidazxvw
+      - title: C# program to print the Armstrong numbers
+        url: csharp/loops/ciddhyzb
+
+  - parent: C# Strings
+    subtree: Strings
+    url: csharp/strings
+    children: 
+      - title: C# program to find the length of a given string
+        url: csharp/strings/ciddoika
+      - title: C# program to convert lowercase to an uppercase string
+        url: csharp/strings/cidqdfzd
+      - title: C# program to convert uppercase to a lowercase string
+        url: csharp/strings/cidyyeee
+      - title: C# program to concatenate the given strings
+        url: csharp/strings/cidywhul
+      - title: C# program to reverse the given string
+        url: csharp/strings/cidgicda
+      - title: C# program to check whether a given string is a palindrome
+        url: csharp/strings/cidczawy
+      - title: C# program to perform the string operations
+        url: csharp/strings/cidyyfzg
+
+  - parent: C# Arrays
+    subtree: Arrays
+    url: csharp/arrays
+    children: 
+      - title: C# program to sort the given numbers in an array
+        url: csharp/arrays/cidywhzb
+      - title: C# implementation of a jagged array
+        url: csharp/arrays/cidztbal
+
+  - parent: C# Classes
+    subtree: Classes
+    url: csharp/classes
+    children: 
+      - title: C# program to print the current date and time
+        url: csharp/classes/cidezylc
+      - title: C# implementation of structure
+        url: csharp/classes/cidchztk
+      - title: C# implementation of class and object
+        url: csharp/classes/cidhlvdk
+      - title: C# program to demonstrate the use of constructor
+        url: csharp/classes/cidvhedr
+      - title: C# implementation of accessors properties
+        url: csharp/classes/cidagiga
+      - title: C# program to change the index of enum
+        url: csharp/classes/cidbgvwn
+
+  - parent: C# Methods
+    subtree: Methods
+    url: csharp/methods
+    children: 
+      - title: C# program to demonstrate the use of math library methods
+        url: csharp/methods/cidfuzuz
+      - title: C# program for addition of two numbers using a static method
+        url: csharp/methods/cidwzqec
+      - title: C# program for addition of two numbers using a method
+        url: csharp/methods/cidzzavo
+
+  - parent: C# Inheritance
+    subtree: Inheritance
+    url: csharp/inheritance
+    children: 
+      - title: C# program for Single Inheritance
+        url: csharp/inheritance/cidagvur
+      - title: C# program for Multilevel Inheritance
+        url: csharp/inheritance/cidkbyga
+      - title: C# program for Hierarchical Inheritance
+        url: csharp/inheritance/cidvfzfg
+      - title: C# program for Hybrid Inheritance (Multilevel and Hierarchical)
+        url: csharp/inheritance/ciddsxvh
+
+  - parent: C# Polymorphism
+    subtree: Polymorphism
+    url: csharp/polymorphism
+    children: 
+      - title: Implementation of C# method overloading
+        url: csharp/polymorphism/cidfzldx
+      - title: How to overload the Main() method in C#
+        url: csharp/polymorphism/cidkliap
+      - title: Implementation of C# method overriding
+        url: csharp/polymorphism/cidrswzv
+      - title: C# program for complex numbers operations
+        url: csharp/polymorphism/cidcaygv
+
+  - parent: C# Abstraction
+    subtree: Abstraction
+    url: csharp/abstraction
+    children: 
+      - title: C# program for Abstract class
+        url: csharp/abstraction/cidvwyou
+      - title: C# program to demonstrate the use of an interface
+        url: csharp/abstraction/cidxlzmh
+      - title: How to achieve Multiple Inheritance in C# using interfaces
+        url: csharp/abstraction/cidadbyk
+
+  - parent: C# Namespaces
+    subtree: Namespaces
+    url: csharp/namespaces
+    children: 
+      - title: C# program to demonstrate the use of namespace
+        url: csharp/namespaces/cidgzuze
+
+  - parent: C# Collections (Generic and Non-generic)
+    subtree: Collections
+    url: csharp/collections
+    children: 
+      - title: Implementation of C# List class
+        url: csharp/collections/cidrlbiw
+      - title: Implementation of C# LinkedList class
+        url: csharp/collections/cidgpvwh
+      - title: Implementation of C# Dictionary class
+        url: csharp/collections/cidgekwc
+      - title: Implementation of C# SortedDictionary class
+        url: csharp/collections/cidvmztp
+      - title: Implementation of C# HashSet class
+        url: csharp/collections/cidfqdtz
+      - title: Implementation of C# SortedSet class
+        url: csharp/collections/ciddzpdt
+      - title: Implementation of C# Stack class
+        url: csharp/collections/cidygygd
+      - title: Implementation of C# Queue class
+        url: csharp/collections/cidvzokd
+      - title: Implementation of C# ArrayList class
+        url: csharp/collections/ciddfpxw
+      - title: Implementation of C# Hashtable class
+        url: csharp/collections/cidgviyf
+      - title: Implementation of C# Stack class
+        url: csharp/collections/cidodcqe
+      - title: Implementation of C# Queue class
+        url: csharp/collections/cidtzzzx
+        
+  - parent: C# Exception Handling
+    subtree: Exceptions
+    url: csharp/exceptions
+    children: 
+      - title: C# program to demonstrate the use of try and catch blocks
+        url: csharp/exceptions/cidgzwzz
+      - title: C# program to catch all the exceptions using Exception class
+        url: csharp/exceptions/cidtgvee
+      - title: C# program to demonstrate the use of nested try and catch blocks
+        url: csharp/exceptions/cidkwdvv
+      - title: C# program to demonstrate the use of finally blocks
+        url: csharp/exceptions/cidkzaae
+      - title: C# program to handle the DivideByZeroException
+        url: csharp/exceptions/cidwsayv
+      - title: C# program to handle the IndexOutOfRangeException
+        url: csharp/exceptions/cidzuddz
+      - title: C# program to handle the ArgumentException
+        url: csharp/exceptions/cidddcia
+      - title: C# program to handle the OutOfMemoryException
+        url: csharp/exceptions/cidezvdy
+      - title: C# program to handle the TimeZoneNotFoundException
+        url: csharp/exceptions/cidwxaed
+      - title: C# program to handle the PlatformNotSupportedException
+        url: csharp/exceptions/cidlgamz
+
+  - parent: C# File Handling
+    subtree: FileIO
+    url: csharp/fileio
+    children: 
+      - title: C# program to perform the operations on a file
+        url: csharp/fileio/cidzekyz
+
+  - parent: C# Regular Expressions
+    subtree: RE
+    url: csharp/re
+    children: 
+      - title: C# program to demonstrate the use of regular expressions
+        url: csharp/re/cidvpoef
+
+  - parent: C# Multithreading
+    subtree: Multithreading
+    url: csharp/multithreading
+    children: 
+      - title: C# program to implement Thread class and its properties
+        url: csharp/multithreading/cidvkyzy
+      - title: C# implementation of Multithreading
+        url: csharp/multithreading/cidaycye
+      - title: C# program to demonstrate two threads working concurrently
+        url: csharp/multithreading/cidziyve
+      - title: C# program to set the priorities to the threads
+        url: csharp/multithreading/cidzfcze
+      - title: C# program for sleep(), abort() and join() methods
+        url: csharp/multithreading/cidqikyq
+      - title: C# program to achieve thread synchronization using the lock keyword
+        url: csharp/multithreading/cidvyzkd
+
+  - parent: C# Reflection
+    subtree: Reflection
+    url: csharp/reflection
+    children: 
+      - title: C# program to demonstrate the use of reflection objects
+        url: csharp/reflection/cidcdgkn
+
+  - parent: C# Database Connectivity
+    subtree: DBC
+    url: csharp/dbc
+    children: 
+      - title: C# program to connect with MySQL Database
+        url: csharp/dbc/cidfravc
+      - title: C# program to create a database in MySQL
+        url: csharp/dbc/cidraazt
+      - title: C# program to create a table in MySQL
+        url: csharp/dbc/cideoefi
+      - title: C# MySQL to insert and retrieve the records from a table
+        url: csharp/dbc/cidqzgqw
+
+sidenav:
+  - parent: C# Programming
+    url: csharp
+    children: 
+      - title: C# Fundamentals
+        url: csharp/fundamentals
+      - title: C# Control Statements
+        url: csharp/controls
+      - title: C# Loops
+        url: csharp/loops
+      - title: C# Strings
+        url: csharp/strings
+      - title: C# Arrays
+        url: csharp/arrays
+      - title: C# Classes
+        url: csharp/classes
+      - title: C# Methods
+        url: csharp/methods
+      - title: C# Inheritance
+        url: csharp/inheritance
+      - title: C# Polymorphism
+        url: csharp/polymorphism
+      - title: C# Abstraction
+        url: csharp/abstraction
+      - title: C# Namespaces
+        url: csharp/namespaces
+      - title: C# Collections
+        url: csharp/collections
+      - title: C# Exception Handling
+        url: csharp/exceptions
+      - title: C# File Handling
+        url: csharp/fileio
+      - title: C# Regular Expressions
+        url: csharp/re
+      - title: C# Multithreading
+        url: csharp/multithreading
+      - title: C# Reflection
+        url: csharp/reflection
+      - title: C# Database Connectivity
+        url: csharp/dbc

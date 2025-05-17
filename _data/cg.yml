@@ -1,0 +1,132 @@
+grandparent: 
+  - parent: Line Drawing Programs
+    subtree: Line Drawing
+    url: cg/line
+    children: 
+      - title: C++ program to draw a Pixel with given coordinates
+        url: cg/line/cidfdmuv
+      - title: C++ program to draw a Pixel by accepting coordinates from the user
+        url: cg/line/cidgwavy
+      - title: C++ program to draw Pixels using for loop
+        url: cg/line/ciddwydv
+      - title: C++ program to draw a line with given coordinates
+        url: cg/line/cidyvzde
+      - title: C++ program to draw a line by accepting coordinates from the user
+        url: cg/line/ciddzqyg
+      - title: C++ program to draw a thick line using the setline function
+        url: cg/line/cidtgnze
+      - title: C++ program to draw a dotted line using the setline function
+        url: cg/line/cidsagfh
+      - title: C++ program to draw a dotted thick line using the setline function
+        url: cg/line/cidwbyau
+      - title: C++ program to draw a dashed line using the setline function
+        url: cg/line/cidawzwd
+      - title: C++ program to draw the Modern Periodic Table of Elements
+        url: cg/line/cidcwzea
+      - title: C++ menu-driven program to draw the thick, thin, and dotted line
+        url: cg/line/cidhvyyk
+
+  - parent: Circle Drawing Programs
+    subtree: Circle Drawing
+    url: cg/circle
+    children: 
+      - title: C++ program to draw a circle using the circle function
+        url: cg/circle/cidzepyi
+      - title: C++ program to draw circles using for loop
+        url: cg/circle/cidmqler
+      - title: C++ program to draw concentric circles using for loop
+        url: cg/circle/cidmgezv
+      - title: C++ program to draw concentric circles from a fixed point
+        url: cg/circle/cidekhai
+      - title: C++ program to draw concentric color-filled circles
+        url: cg/circle/cidegbed
+      - title: C++ program to draw concentric color-filled circles from a fixed point
+        url: cg/circle/cidgzswf
+      - title: C++ program to draw a quarter color-filled circle using the pieslice function
+        url: cg/circle/cidqogsw
+      - title: C++ program to draw a color-filled circle using the pieslice function
+        url: cg/circle/cidgwpqd
+      - title: C++ program to draw a circle using the arc function
+        url: cg/circle/cidzzzvy
+
+  - parent: Geometric Shapes
+    subtree: Geometric Shapes
+    url: cg/shapes
+    children: 
+      - title: C++ program to draw 'S' character using the arc function
+        url: cg/shapes/cidzewpm
+      - title: C++ program to draw a clockwise spiral using the arc function
+        url: cg/shapes/ciddqonb
+      - title: C++ program to draw a counter-clockwise spiral using the arc function
+        url: cg/shapes/ciddkwaa
+      - title: C++ program to draw a wheel using the arc, pieslice, and setcolor function
+        url: cg/shapes/cidseage
+      - title: C++ program to draw a square using the line function
+        url: cg/shapes/cidsxlqq
+      - title: C++ program to draw a square using the rectangle function
+        url: cg/shapes/cidgyigw
+      - title: C++ program to draw a 3D square using the bar3d function
+        url: cg/shapes/cidwwsfw
+      - title: C++ program to draw a color-filled square using the bar function
+        url: cg/shapes/cidqeuyt
+      - title: C++ program to draw a left half ellipse using the ellipse function
+        url: cg/shapes/cidvayid
+      - title: C++ program to draw a color-filled ellipse using the fillellipse and sector function
+        url: cg/shapes/cidazarg
+      - title: C++ menu-driven program to draw the convex polygons
+        url: cg/shapes/cidacrad
+      - title: C++ program to draw a convex polygon with programmable edges
+        url: cg/shapes/cidmgeyz
+      - title: C++ program to draw a concave polygon
+        url: cg/shapes/cidlggly
+      - title: C++ program to draw a sine wave
+        url: cg/shapes/cidmtvba
+
+  - parent: Computer Graphics Algorithms
+    subtree: Algorithms
+    url: cg/algorithms
+    children: 
+      - title: C++ program for DDA line drawing algorithm
+        url: cg/algorithms/cidllgea
+      - title: C++ program for Bresenham's line drawing algorithm
+        url: cg/algorithms/cidevpys
+      - title: C++ program for DDA circle drawing algorithm
+        url: cg/algorithms/cidfcwdy
+      - title: C++ program for Bresenham's circle drawing algorithm
+        url: cg/algorithms/cidzzahy
+      - title: C++ program for Midpoint circle drawing algorithm
+        url: cg/algorithms/ciddgwwm
+      - title: C++ program to fill a polygon using the Scan Line Algorithm (SLA)
+        url: cg/algorithms/cideqwaz
+
+  - parent: OpenGL
+    subtree: OpenGL
+    url: cg/opengl
+    children: 
+      - title: C++ program to draw a rhombus using OpenGL
+        url: cg/opengl/ciddcivl
+      - title: C++ program for DDA line drawing algorithm using OpenGL
+        url: cg/opengl/cidyulza
+      - title: C++ program for Bresenham's line drawing algorithm using OpenGL
+        url: cg/opengl/cidhdyuk
+      - title: C++ program for DDA circle drawing algorithm using OpenGL
+        url: cg/opengl/cidwgeyh
+      - title: C++ program for Bresenham's circle drawing algorithm using OpenGL
+        url: cg/opengl/ciddadyi
+      - title: C++ program for 8 X 8 Chess Board using OpenGL
+        url: cg/opengl/cidfuygg
+
+sidenav:
+  - parent: Computer Graphics
+    url: cg
+    children: 
+      - title: Line Drawing Programs
+        url: cg/line
+      - title: Circle Drawing Programs
+        url: cg/circle
+      - title: Geometric Shapes
+        url: cg/shapes
+      - title: Computer Graphics Algorithms
+        url: cg/algorithms
+      - title: OpenGL
+        url: cg/opengl
