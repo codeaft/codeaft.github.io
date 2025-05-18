@@ -11,15 +11,15 @@ Thread t = Thread.CurrentThread;
 t.Name = "Main Thread";
 Console.WriteLine(t.Name);
 
-KWThread1 kwt1 = new KWThread1();
-Thread A = new Thread(new ThreadStart(kwt1.thread));
-Thread B = new Thread(new ThreadStart(kwt1.thread));
+CodeaftThread1 ct1 = new CodeaftThread1();
+Thread A = new Thread(new ThreadStart(ct1.thread));
+Thread B = new Thread(new ThreadStart(ct1.thread));
 A.Start();
 B.Start();
 
-KWThread2 kwt2 = new KWThread2();
-Thread C = new Thread(new ThreadStart(kwt2.thread));
-Thread D = new Thread(new ThreadStart(kwt2.thread));
+CodeaftThread2 ct2 = new CodeaftThread2();
+Thread C = new Thread(new ThreadStart(ct2.thread));
+Thread D = new Thread(new ThreadStart(ct2.thread));
 C.Start();
 D.Start();
 Console.WriteLine("\n———————————————————————————————————————————");

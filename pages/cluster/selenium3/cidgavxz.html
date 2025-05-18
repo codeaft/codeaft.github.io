@@ -4,7 +4,7 @@ title: How to use and implement TestNG Listeners
 ---
 
 <div class="codecard">{{ page.title }}</div>
-<div class="card">File: KWTestNG.java</div>
+<div class="card">File: CodeaftTestNG.java</div>
 <pre class="code">{%- highlight java -%}
 package tests;
 
@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(tests.KWListener.class)  
+@Listeners(tests.CodeaftListener.class)  
 public class CodeaftTestNG 
 {
     WebDriver driver;
@@ -50,7 +50,7 @@ public class CodeaftTestNG
 }
 {%- endhighlight -%}</pre>
 
-<div class="card">File: KWListener.java</div>
+<div class="card">File: CodeaftListener.java</div>
 <pre class="code">{%- highlight java -%}
 package tests;
 
@@ -88,11 +88,11 @@ public class CodeaftListener implements ITestListener
 <div class="card">{{ site.output }}</div>
 <span><pre>
 [RemoteTestNG] detected TestNG version 7.0.0
-Executing Method: KWTestNG.OpenBrowser()[pri:0, instance:tests.KWTestNG@52a86356]
+Executing Method: CodeaftTestNG.OpenBrowser()[pri:0, instance:tests.CodeaftTestNG@52a86356]
 Pass: OpenBrowser
-Executing Method: KWTestNG.Login()[pri:1, instance:tests.KWTestNG@52a86356]
+Executing Method: CodeaftTestNG.Login()[pri:1, instance:tests.CodeaftTestNG@52a86356]
 Pass: Login
-Executing Method: KWTestNG.VerifyTitle()[pri:2, instance:tests.KWTestNG@52a86356]
+Executing Method: CodeaftTestNG.VerifyTitle()[pri:2, instance:tests.CodeaftTestNG@52a86356]
 Login Successful
 Pass: VerifyTitle
 PASSED: OpenBrowser
@@ -117,12 +117,12 @@ Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Selenium Project">
     <listeners>
-        <listener class-name="tests.KWListener"/>
+        <listener class-name="tests.CodeaftListener"/>
     </listeners>
     
     <test name="Login">
         <classes>
-            <class name="tests.KWTestNG"/>
+            <class name="tests.CodeaftTestNG"/>
         </classes>
     </test>
 </suite>

@@ -37,17 +37,17 @@ codeaft@codeaft:~$
 class Codeaft
 {
     int a=100,b=100;
-    public void add(KW k)
+    public void add(Codeaft c)
     {
-        k.a=k.a+k.b+500;
+        c.a=c.a+c.b+500;
     }
     public static void main(String args[])
     {
-        KW k=new KW();
-        k.a=k.a+k.b;
-        System.out.println(k.a);
-        k.add(c);
-        System.out.println(k.a);
+        Codeaft c=new Codeaft();
+        c.a=c.a+c.b;
+        System.out.println(c.a);
+        c.add(c);
+        System.out.println(c.a);
     }
 }
 {%- endhighlight -%}</pre>

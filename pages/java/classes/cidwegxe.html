@@ -11,7 +11,7 @@ class Codeaft
     static int a=10;
     public static void main(String args[])
     {
-        System.out.println(KW.a);
+        System.out.println(Codeaft.a);
     }
 }
 {%- endhighlight -%}</pre>
@@ -34,7 +34,7 @@ class Codeaft
     }
     public static void main(String args[])
     {
-        System.out.println(KW.a);
+        System.out.println(Codeaft.a);
     }
 }
 {%- endhighlight -%}</pre>
@@ -57,7 +57,7 @@ class Codeaft
     }
     public static void main(String args[])
     {
-        System.out.println(KW.a+1);
+        System.out.println(Codeaft.a+1);
     }
 }
 {%- endhighlight -%}</pre>
@@ -74,16 +74,16 @@ codeaft@codeaft:~$
 class Codeaft
 {
     static int i=0;
-    public KW()
+    public Codeaft()
     {
         i=i+1;
         System.out.println(i);
     }
     public static void main(String args[])
     {
-        KW k=new KW();
-        KW k1=new KW();
-        KW k2=new KW();
+        Codeaft c=new Codeaft();
+        Codeaft c1=new Codeaft();
+        Codeaft c2=new Codeaft();
     }
 }
 {%- endhighlight -%}</pre>
@@ -106,16 +106,16 @@ class Codeaft
     {
         i=10;
     }
-    public KW()
+    public Codeaft()
     {
         i=i+1;
         System.out.println(i);
     }
     public static void main(String args[])
     {
-        KW k=new KW();
-        KW k1=new KW();
-        KW k2=new KW();
+        Codeaft c=new Codeaft();
+        Codeaft c1=new Codeaft();
+        Codeaft c2=new Codeaft();
     }
 }
 {%- endhighlight -%}</pre>
@@ -134,14 +134,14 @@ codeaft@codeaft:~$
 class Codeaft
 {
     final int i=0;
-    public KW(int i)
+    public Codeaft(int i)
     {
         System.out.println(i+1);
     }
     public static void main(String args[])
     {
-        KW k=new KW(1+1);
-        KW k1=new KW(20);
+        Codeaft c=new Codeaft(1+1);
+        Codeaft c1=new Codeaft(20);
     }
 }
 {%- endhighlight -%}</pre>
@@ -163,7 +163,7 @@ class Codeaft
     public static void main(String args[])
     {   
         a+=+b+1;
-        System.out.println(KW.a+1+a);
+        System.out.println(Codeaft.a+1+a);
     }
 }
 {%- endhighlight -%}</pre>

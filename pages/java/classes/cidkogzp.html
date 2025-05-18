@@ -9,16 +9,16 @@ title: Java program to demonstrate the use of constructor
 class Codeaft
 {
     int i=0;
-    public KW()
+    public Codeaft()
     {
         i=i+1;
         System.out.println(i);
     }
     public static void main(String args[])
     {
-        KW k=new KW();
-        KW k1=new KW();
-        KW k2=new KW();
+        Codeaft c=new Codeaft();
+        Codeaft c1=new Codeaft();
+        Codeaft c2=new Codeaft();
     }
 }
 {%- endhighlight -%}</pre>
@@ -37,14 +37,14 @@ codeaft@codeaft:~$
 class Codeaft
 {
     int a=20;
-    KW(int a)
+    Codeaft(int a)
     {
         a=a;
         System.out.println(a);
     }
     public static void main(String args[])
     {
-        KW k=new KW(10);
+        Codeaft c=new Codeaft(10);
     }
 }
 {%- endhighlight -%}</pre>
@@ -61,18 +61,18 @@ codeaft@codeaft:~$
 class Codeaft
 {
     int a;
-    KW()
+    Codeaft()
     {
         this(30);
     }
-    KW(int a)
+    Codeaft(int a)
     {
         this.a=a;
         System.out.println(a);
     }
     public static void main(String args[])
     {
-        KW k1=new KW();
+        Codeaft c1=new Codeaft();
     }
 }
 {%- endhighlight -%}</pre>

@@ -14,8 +14,8 @@ class Codeaft implements Runnable
     }  
     public static void main(String args[])
     {  
-        KW k=new KW();
-        Thread t1=new Thread(k); 
+        Codeaft c=new Codeaft();
+        Thread t1=new Thread(c); 
         //t1.run();  
         System.out.println(t1.isAlive()); 
         t1.start(); 

@@ -23,9 +23,9 @@ class Codeaft extends Arithmetic
 {
     public static void main(String[] args) 
     {
-        KW k=new KW();
-        int addition=k.add(10,10);
-        k.display(addition);
+        Codeaft c=new Codeaft();
+        int addition=c.add(10,10);
+        c.display(addition);
     }
 }
 {%- endhighlight -%}</pre>
@@ -114,7 +114,7 @@ class Rectangle extends Shape
 
 class Codeaft
 {
-    KW(float a)
+    Codeaft(float a)
     {
         System.out.println("Area of Square "+(a*a));
     }
@@ -127,7 +127,7 @@ class Codeaft
         Rectangle r=new Rectangle();
         r.display();
         r.area(10,20);
-        KW k=new KW(10);
+        Codeaft c=new Codeaft(10);
     }
 }
 {%- endhighlight -%}</pre>
