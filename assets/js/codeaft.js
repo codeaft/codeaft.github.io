@@ -99,4 +99,17 @@ window.matchMedia('(prefers-color-scheme: dark)').addListener(({ matches }) => {
 
 /* --------------------------------------------------------------------------------------------- */
 
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-3941L1CXQF', {
+    ignore_referrer: 'true',
+    'linker': {
+        'domains': ['codeaft.github.io']
+    }
+});
+
+/* --------------------------------------------------------------------------------------------- */
+
 var year = new Date().getFullYear();

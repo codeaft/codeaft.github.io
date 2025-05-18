@@ -17,6 +17,7 @@ jquery: https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
 og: https://raw.githubusercontent.com/codeaft/codeaft.github.io/master/assets/images/logo.png
 logo: assets/images/logo.png
 advertise: assets/images/advertise.png
+analytics: https://www.googletagmanager.com/gtag/js?id=G-3941L1CXQF
 
 # Filename
 highlighter: rouge
