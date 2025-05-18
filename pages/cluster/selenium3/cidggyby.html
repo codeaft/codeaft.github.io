@@ -17,10 +17,10 @@ class Codeaft
         System.setProperty("webdriver.chrome.driver", "/home/codeaft/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://codeaft.com/");
+        driver.get("https://codeaft.github.io/");
         
         JavascriptExecutor jse = (JavascriptExecutor)driver;
-        jse.executeScript("window.location = 'https://codeaft.com/testapp/'");
+        jse.executeScript("window.location = 'https://codeaft.github.io/testapp/'");
         
         jse.executeScript("alert('Navigated from home page');");
         

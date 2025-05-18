@@ -17,7 +17,7 @@ class Codeaft
         System.setProperty("webdriver.chrome.driver", "/home/codeaft/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://codeaft.com/");
+        driver.get("https://codeaft.github.io/");
         
         JavascriptExecutor jse = (JavascriptExecutor)driver;
         jse.executeScript("window.scrollTo(0, document.body.scrollHeight)");

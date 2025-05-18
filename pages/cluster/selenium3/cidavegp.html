@@ -17,7 +17,7 @@ class Codeaft
         System.setProperty("webdriver.chrome.driver", "/home/codeaft/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://codeaft.com/testapp/");
+        driver.get("https://codeaft.github.io/testapp/");
         System.out.println(driver.findElement(By.name("username")).getTagName());
         System.out.println(driver.findElement(By.name("password")).getTagName());
         System.out.println(driver.findElement(By.name("login")).getTagName());

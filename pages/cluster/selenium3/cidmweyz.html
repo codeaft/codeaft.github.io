@@ -17,7 +17,7 @@ class Codeaft
         System.setProperty("webdriver.chrome.driver", "/home/codeaft/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://codeaft.com/testapp/");
+        driver.get("https://codeaft.github.io/testapp/");
         
         JavascriptExecutor jse = (JavascriptExecutor)driver;
         String domain = jse.executeScript("return document.domain;").toString();
@@ -35,7 +35,7 @@ class Codeaft
 {%- endhighlight -%}</pre>
 <div class="card">{{ site.output }}</div>
 <span><pre>
-Domain Name - codeaft.com
-URL - https://codeaft.com/testapp/
+Domain Name - codeaft.github.io
+URL - https://codeaft.github.io/testapp/
 Page Title - Codeaft's TestApp
 </pre></span>

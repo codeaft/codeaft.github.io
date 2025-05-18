@@ -15,7 +15,7 @@ class Codeaft
     {
         System.setProperty("webdriver.chrome.driver", "/home/codeaft/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();     
-        driver.navigate().to("https://codeaft.com/testapp/");
+        driver.navigate().to("https://codeaft.github.io/testapp/");
         driver.close();
         System.exit(0);
     }   	
@@ -34,7 +34,7 @@ class Codeaft
     {
     	System.setProperty("webdriver.gecko.driver", "/home/codeaft/drivers/geckodriver");
         WebDriver driver = new FirefoxDriver();
-        driver.navigate().to("https://codeaft.com/testapp/");
+        driver.navigate().to("https://codeaft.github.io/testapp/");
         driver.close();
         System.exit(0);
     }   	
@@ -53,7 +53,7 @@ class Codeaft
     {
         System.setProperty("webdriver.edge.driver", "/home/codeaft/drivers/msedgedriver");
         WebDriver driver = new EdgeDriver();     
-        driver.navigate().to("https://codeaft.com/testapp/");
+        driver.navigate().to("https://codeaft.github.io/testapp/");
         driver.close();
     }       
 }

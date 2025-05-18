@@ -55,7 +55,7 @@ public class Codeaft
         ExtentTest et = er.createTest("VerifyHomePageTitle");
         et.log(Status.INFO, "Chrome Browser Launched");
         
-        driver.navigate().to("https://codeaft.com/testapp/");
+        driver.navigate().to("https://codeaft.github.io/testapp/");
         et.log(Status.INFO,"Successfully Navigated to the URL");
         
         String actual = driver.getTitle();
@@ -97,7 +97,7 @@ Default suite
 Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
 ===============================================
 
-<img src="pages/selenium/images/cideyxca.png" loading="lazy">
+<img src="pages/cluster/selenium3/images/cideyxca.png" loading="lazy">
 </pre></span>
 
 <div class="codecard">{{ page.title }} (Example 2)</div>
@@ -128,7 +128,7 @@ public class Codeaft
     	System.setProperty("webdriver.chrome.driver", "/home/codeaft/drivers/chromedriver");
         driver = new ChromeDriver();
         
-        driver.navigate().to("https://codeaft.com/testapp/");
+        driver.navigate().to("https://codeaft.github.io/testapp/");
         et.log(LogStatus.INFO,"Successfully Navigated to the URL");
         
         String actual = driver.getTitle();
@@ -171,5 +171,5 @@ Default suite
 Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
 ===============================================
 
-<img src="pages/selenium/images/cidzddiz.png" loading="lazy">
+<img src="pages/cluster/selenium3/images/cidzddiz.png" loading="lazy">
 </pre></span>

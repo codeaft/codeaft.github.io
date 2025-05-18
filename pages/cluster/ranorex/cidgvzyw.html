@@ -26,7 +26,7 @@ namespace GlobalProjects
     {
         private void Init()
         {
-            Browser("Chrome","https://codeaft.com/testapp/");
+            Browser("Chrome","https://codeaft.github.io/testapp/");
         }
         
         public void Browser(string bname,string url)
@@ -38,7 +38,7 @@ namespace GlobalProjects
                 //true will maximize the browser window
                 Delay.Seconds(5);
                 
-                WebDocument wd = "/dom[@domain='codeaft.com']";
+                WebDocument wd = "/dom[@domain='codeaft.github.io']";
                 Report.Info("Browser Name - "+wd.BrowserName);
                 Report.Info("Browser Version - "+wd.BrowserVersion);
                 Report.Info("Domain - "+wd.Domain);

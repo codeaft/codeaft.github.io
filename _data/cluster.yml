@@ -57,7 +57,7 @@ grandparent:
         url: cluster/selenium3/cidezzgb
       - title: Selenium Java for mouse events using the Action class
         url: cluster/selenium3/cidzvzvy
-      - title: Selenium Java to perform series of multiple actions using Action and Actions selenium3
+      - title: Selenium Java to perform series of multiple actions using Action and Actions class
         url: cluster/selenium3/cidgezvd
       - title: Selenium Java to select an option from the Chrome context menu
         url: cluster/selenium3/cidyphyw

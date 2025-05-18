@@ -25,7 +25,7 @@ class Codeaft
         WebDriver driver = new ChromeDriver(co);
         driver.manage().window().maximize();
         
-        driver.navigate().to("https://codeaft.com/testapp/");
+        driver.navigate().to("https://codeaft.github.io/testapp/");
         driver.findElement(By.name("username")).sendKeys("codeaft");
         driver.findElement(By.name("password")).sendKeys("codeaft");
         driver.findElement(By.name("login")).click();

@@ -18,7 +18,7 @@ class Codeaft
         System.setProperty("webdriver.chrome.driver", "/home/codeaft/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.navigate().to("https://codeaft.com/testapp/");
+        driver.navigate().to("https://codeaft.github.io/testapp/");
         Thread.sleep(1000);
         Select country = new Select(driver.findElement(By.name("country")));
         country.selectByIndex(2);

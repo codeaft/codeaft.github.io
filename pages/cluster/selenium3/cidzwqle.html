@@ -16,7 +16,7 @@ class Codeaft
     {
         System.setProperty("webdriver.chrome.driver", "/home/codeaft/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
-        driver.navigate().to("https://codeaft.com/testapp/");
+        driver.navigate().to("https://codeaft.github.io/testapp/");
         
         driver.findElement(By.xpath("(//input)[last()-1]")).sendKeys("codeaft");
         driver.findElement(By.xpath("(//input)[last()]")).sendKeys("codeaft");

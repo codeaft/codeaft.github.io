@@ -40,7 +40,7 @@ excelfile: "<span class='bi bi-filetype-xlsx'> codeaft.xlsx</span>"
 # Execution
 runc: "codeaft@codeaft:~$ <mark>gcc codeaft.c</mark><br>codeaft@codeaft:~$ <mark>./a.out</mark>"
 runcpp: "codeaft@codeaft:~$ <mark>g++ codeaft.cpp</mark><br>codeaft@codeaft:~$ <mark>./a.out</mark>"
-runjava: "codeaft@codeaft:~$ <mark>javac Codeaft.java</mark><br>codeaft@codeaft:~$ <mark>java KW</mark>"
+runjava: "codeaft@codeaft:~$ <mark>javac Codeaft.java</mark><br>codeaft@codeaft:~$ <mark>java Codeaft</mark>"
 runpy: "codeaft@codeaft:~$ <mark>python3 codeaft.py</mark>"
 runjulia: "codeaft@codeaft:~$ <mark>julia codeaft.jl</mark>"
 runcs: "codeaft@codeaft:~/csharp$ <mark>dotnet run</mark>"

@@ -15,7 +15,7 @@ class Codeaft
     {
         System.setProperty("webdriver.chrome.driver", "/home/codeaft/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
-        driver.navigate().to("https://codeaft.com/testapp/");
+        driver.navigate().to("https://codeaft.github.io/testapp/");
 
         String actualTitle = driver.getTitle();
         String expectedTitle = "Codeaft's Testapp";

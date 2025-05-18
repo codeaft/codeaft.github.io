@@ -18,7 +18,7 @@ class Codeaft
         System.setProperty("webdriver.chrome.driver", "/home/codeaft/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.navigate().to("https://codeaft.com/testapp/");
+        driver.navigate().to("https://codeaft.github.io/testapp/");
         driver.findElement(By.name("username")).sendKeys("USERNAME");
         Thread.sleep(1000);
         driver.findElement(By.name("username")).clear();
