@@ -25,7 +25,7 @@ def install_chrome():
         os.system("echo 'deb [arch=amd64 signed-by=/etc/apt/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list")
         os.system("sudo apt-get -y install google-chrome-stable")
 
-def install():
+def install_packages():
     if ubuntu:
         os.system("sudo apt-get update -y")
         os.system("sudo apt-get full-upgrade -y")
@@ -114,12 +114,12 @@ def start_setup():
                             if ubuntu:
                                 os.system("sudo rm -rf _site/")
                 if ubuntu:
-                    install()
+                    install_packages()
                     os.system("sudo apt-get clean -y")
                     os.system("sudo apt-get autoclean -y")
                     os.system("sudo apt-get autoremove -y")
                 elif not ubuntu:
-                    install()
+                    install_packages()
         else:
             print("Insufficient disk space. Required 2 GB or more for full setup.")
         start_server()

@@ -1,5 +1,5 @@
 grandparent: 
-  - parent: Selenium 3
+  - parent: Selenium 3 WebDriver
     subtree: Selenium 3
     url: cluster/selenium3
     children: 
@@ -57,7 +57,7 @@ grandparent:
         url: cluster/selenium3/cidezzgb
       - title: Selenium Java for mouse events using the Action class
         url: cluster/selenium3/cidzvzvy
-      - title: Selenium Java to perform series of multiple actions using Action and Actions class
+      - title: Selenium Java to perform series of multiple actions using Action and Actions classes
         url: cluster/selenium3/cidgezvd
       - title: Selenium Java to select an option from the Chrome context menu
         url: cluster/selenium3/cidyphyw
